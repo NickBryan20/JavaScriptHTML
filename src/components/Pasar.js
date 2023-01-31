@@ -1,22 +1,46 @@
 const listadoTareas=
 [
     {
-        titulo:"Médico",
-        responsable:"Juan Alimaña",
-        descripcion:"Estudió en Harvard",
-        prioridad:"Alta"
+        materia:"Contextos e Interculturalidad",
+        parcial1:"Primer parcial: 50",
+        parcial2:"Segundo parcial: 50",
+        nrc: "NRC",
+        numeronrc:"6603"
     },
     {
-        titulo:"Tecnólogo",
-        responsable:"Paula Quintero",
-        descripcion:"Mejora el rendimiento del sistema",
-        prioridad:"Media"
+        materia:"Fundamentos de la Investigación",
+        parcial1:"Primer parcial: 50",
+        parcial2:"Segundo parcial: 50",
+        nrc: "NRC",
+        numeronrc:"6621"
     },
     {
-        titulo:"Profesor",
-        responsable:"Zulinda",
-        descripcion:"Enseña a niños de",
-        prioridad:"Baja"
+        materia:"Calculo Diferencial e Integral",
+        parcial1:"Primer parcial: 50",
+        parcial2:"Segundo parcial: 50",
+        nrc: "NRC",
+        numeronrc:"6772"
+    },
+    {
+        materia:"Estructuras Discretas",
+        parcial1:"Primer parcial: 50",
+        parcial2:"Segundo parcial: 50",
+        nrc: "NRC",
+        numeronrc:"6777"
+    },
+    {
+        materia:"Programación Estructurada y Funcional",
+        parcial1:"Primer parcial: 50",
+        parcial2:"Segundo parcial: 50",
+        nrc: "NRC",
+        numeronrc:"6782"
+    },
+    {
+        materia:"Sistemas Electrónicos Digitales",
+        parcial1:"Primer parcial: 50",
+        parcial2:"Segundo parcial: 50",
+        nrc: "NRC",
+        numeronrc:"6786"
     }
 ]
-module.exports={"listadoTareas": listadoTareas}
+module.exports={datos: listadoTareas}

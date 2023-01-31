@@ -7,12 +7,20 @@ import Tarea from './components/Tarea';
 function App() {
   return (
     <div className="App">
-      <h1>Primeros pasos con REACT</h1>
-      <h2>Bienvenidos </h2>
+      <header className="App-header">
+      <br></br>
+      <br></br>
+      <h1>MI PÁGINA CON REACT</h1>
       <Saludos nombre="Nick" apellidos=" Lopez"/>
-      <Ejercicio nombre="Carlos" edad="17" pasatiempo="Arrancar Monte"/>
+      <Ejercicio nombre="Nick" edad="35" pasatiempo="Robar"/>
       <Tarea/>
+      </header>
+      <body>
+      <p></p>
+      <p>Hecho por Nick Bryan ®</p>
+      </body> 
     </div>
+
   );
 }
 

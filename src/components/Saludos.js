@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function Saludos(props) {
   return (
-    <div>Hola <strong>{props.nombre} {props.apellidos}</strong>, bienvenido a la PUCESE</div>
+    <div>Hola <strong>{props.nombre} {props.apellidos}</strong>, Bienvenido a mi sitio WEB</div>
   )
 }
 
